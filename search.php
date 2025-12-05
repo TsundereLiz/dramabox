@@ -16,22 +16,6 @@ if (!empty($query)) {
 <?php include 'includes/header.php'; ?>
 
 <div class="container">
-    <!-- Search Hero -->
-    <div class="hero">
-        <h1>🔍 Search Dramas</h1>
-        <p>Find your favorite drama series</p>
-        
-        <form action="search.php" method="GET" class="search-form">
-            <input 
-                type="text" 
-                name="q" 
-                placeholder="Search for drama..." 
-                value="<?= htmlspecialchars($query) ?>"
-                required
-            >
-            <button type="submit">Search</button>
-        </form>
-    </div>
     
     <!-- Search Results -->
     <?php if (!empty($query)): ?>
@@ -136,3 +120,4 @@ if (!empty($query)) {
 </div>
 
 <?php include 'includes/footer.php'; ?>
+
