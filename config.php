@@ -1,7 +1,7 @@
 <?php
 // API Configuration
 define('API_BASE_URL', 'https://dramaboxapi.web.id/api/');
-define('API_KEY', 'FREE_DEMO_2DEE80DCCB473C58');
+define('API_KEY', '79A27705489D3C564D179F42A2630D70');
 
 // Site Configuration
 define('SITE_NAME', 'DramaBox');
@@ -84,3 +84,4 @@ function searchDrama($query, $lang = 'in', $page = 1) {
         'p' => $page
     ]);
 }
+
